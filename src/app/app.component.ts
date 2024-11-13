@@ -16,7 +16,7 @@ import { SlickCarouselModule } from 'ngx-slick-carousel';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,ContactUsComponent,HeaderComponent,BannerComponent,FeaturesComponent,TestimonialsComponent,SectionComponent,SimpleSliderComponent,Section2Component,SliderComponent,FooterComponent, RouterModule, SlickCarouselModule,],
+  imports: [RouterOutlet,RouterModule,ContactUsComponent,HeaderComponent,BannerComponent,FeaturesComponent,TestimonialsComponent,SectionComponent,SimpleSliderComponent,Section2Component,SliderComponent,FooterComponent, RouterModule, SlickCarouselModule,],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

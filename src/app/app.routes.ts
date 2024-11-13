@@ -21,4 +21,5 @@ export const routes: Routes = [
    {path:'section2', component:Section2Component},
    {path:'slider', component:SliderComponent},
    {path:'footer', component:FooterComponent},
+   { path: '', redirectTo: '/contact-us', pathMatch: 'full' },
 ];
