@@ -1,11 +1,11 @@
-// import { NgModule } from '@angular/core';
-// import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NgModule } from '@angular/core';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-// import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 
-// @NgModule({
-//   imports: [
-//     BrowserAnimationsModule,
-//     BsDropdownModule.forRoot()
-//   ]
-// })
+@NgModule({
+  imports: [
+    BrowserAnimationsModule,
+    BsDropdownModule.forRoot()
+  ]
+})

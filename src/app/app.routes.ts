@@ -12,7 +12,7 @@ import { FooterComponent } from './footer/footer.component';
 import { NoticeComponent } from './notice/notice.component';
 
 export const routes: Routes = [
-   {path:'contactus', component:ContactUsComponent},
+   {path:'contact-us', component:ContactUsComponent},
    {path:'header', component:HeaderComponent},
    {path:'banner', component:BannerComponent},
    {path:'testimonials', component:TestimonialsComponent},
